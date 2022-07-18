@@ -4,6 +4,7 @@
 
 .hero-section {
   text-align: center;
+  background-color: #1b1b1b;
 }
 .card-img-overlay {
   padding-top: 250px;
@@ -28,4 +29,25 @@
   background-color: white;
   color: #272142;
   text-decoration: none;
+}
+.homepage-content {
+}
+.homepage-row img {
+  height: 250px;
+  margin: 20px;
+}
+.second-row {
+  width: 315px;
+}
+.second-row-last-img {
+  width: 320px;
+}
+.frst-row-last-img {
+  width: 320px;
+}
+.nineth-row-last-img {
+  width: 320px;
+}
+.last-row-last-img {
+  width: 320px;
 }
