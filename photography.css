@@ -1,0 +1,31 @@
+:root {
+  --font-family: "Roboto", sans-serif;
+}
+
+.hero-section {
+  text-align: center;
+}
+.card-img-overlay {
+  padding-top: 250px;
+}
+.hero-section h2 {
+  font-size: 24px;
+  color: white;
+}
+.hero-section h1 {
+  font-size: 72px;
+  color: white;
+}
+.hero-section p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: white;
+}
+.hero-button a {
+  font-size: 14px;
+  padding: 15px 25px;
+  border-radius: 30px;
+  background-color: white;
+  color: #272142;
+  text-decoration: none;
+}
