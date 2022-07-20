@@ -10,6 +10,9 @@
 .navbar a {
   color: white;
 }
+body {
+  font-family: var(--font-family);
+}
 .hero-section {
   text-align: center;
   background-color: #1b1b1b;
@@ -81,6 +84,47 @@ footer h3 {
 .footer {
   background-color: #282323;
 }
+.about-section {
+  background-color: #1b1b1b;
+}
+.about-section h2 {
+  font-size: 20px;
+  color: #f65282;
+}
+.about-section h1 {
+  font-size: 60px;
+  color: white;
+}
+.about-section p {
+  font-size: 16px;
+  color: white;
+  line-height: 1.6;
+}
+.about-image {
+  height: 550px;
+}
+.about-section span {
+  color: white;
+  font-size: 16px;
+  padding-left: 10px;
+}
+.camera-section {
+  background-color: #2d2727;
+  padding: 10px;
+  max-width: 350px;
+}
+.camera-section img {
+  width: 70px;
+}
+.about-button a {
+  font-size: 14px;
+  padding: 12px 20px;
+  border-radius: 30px;
+  background-color: white;
+  color: #272142;
+  text-decoration: none;
+}
+
 @media (max-width: 1250px) {
   .card-img-overlay {
     padding-top: 250px;
