@@ -10,6 +10,9 @@
 .navbar a {
   color: white;
 }
+.navbar a:hover {
+  color: white;
+}
 body {
   font-family: var(--font-family);
 }
@@ -101,7 +104,7 @@ footer h3 {
   line-height: 1.6;
 }
 .about-image {
-  height: 550px;
+  height: 600px;
 }
 .about-section span {
   color: white;
@@ -112,6 +115,7 @@ footer h3 {
   background-color: #2d2727;
   padding: 10px;
   max-width: 350px;
+  border-radius: 5px;
 }
 .camera-section img {
   width: 70px;
@@ -133,6 +137,11 @@ footer h3 {
 .about-page {
   background-color: #1b1b1b;
 }
+.about-images img {
+  height: 250px;
+  margin: 20px;
+}
+
 @media (max-width: 1250px) {
   .card-img-overlay {
     padding-top: 250px;
@@ -181,6 +190,10 @@ footer h3 {
   .mobile-view-section h1 {
     font-size: 45px;
   }
+  .about-images img {
+    display: block;
+    margin: 20px auto;
+  }
 }
 @media (max-width: 730px) {
   .card-img-overlay {
@@ -225,6 +238,10 @@ footer h3 {
   }
   .last-row-last-img {
     width: 250px;
+  }
+  .about-images img {
+    display: block;
+    margin: 20px auto;
   }
 }
 @media (max-width: 600px) {
@@ -272,6 +289,10 @@ footer h3 {
   }
   .last-row-last-img {
     width: 200px;
+  }
+  .about-images img {
+    display: block;
+    margin: 20px auto;
   }
 }
 @media (max-width: 400px) {
