@@ -243,6 +243,10 @@ footer h3 {
     display: block;
     margin: 20px auto;
   }
+  .gallery-section img {
+    display: block;
+    margin: 20px auto;
+  }
 }
 @media (max-width: 600px) {
   .card-img-overlay {
